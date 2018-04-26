@@ -1,0 +1,70 @@
+<div class=dashboard-page>
+    <div class="header-admin">
+        <div class="container">
+        	<div class="row">
+	        	<div class="col-sm-6">
+	        		<img src="images/logo_blanco_sm.png" class="logo">
+	        	</div>
+	        	<div class="col-sm-6">
+	        		<div class="panel-perfil pull-right">
+	        			<div class="per-nombre">Administrador</div>
+	        			<div class="per-user"> <i class="fa fa-user-circle-o" aria-hidden="true"></i> </div>
+	        			<div class="per-angle">
+	        				<ul class="parent-nav">
+	        					<li class="active-nav">
+	        						<i class="fa fa-angle-down" aria-hidden="true"></i>
+
+	        						<ul class="nav">
+			        					<li ng-click="pnlNoticias()">
+			        						<table width="100%" border="0">
+			        							<tr>
+			        								<td width="25"><i class="fa fa-newspaper-o" aria-hidden="true"></i></td>
+			        								<td>Noticias</td>
+			        							</tr>
+			        						</table>
+			        					</li>
+			        					<li ng-click="pnlVer()">
+			        						<table width="100%" border="0">
+			        							<tr>
+			        								<td width="25"><i class="fa fa-user-circle-o" aria-hidden="true"></i></td>
+			        								<td>Perfil</td>
+			        							</tr>
+			        						</table>
+			        					</li>
+			        					<li ng-click="pnlEditar()">
+			        						<table width="100%" border="0">
+			        							<tr>
+			        								<td width="25"><i class="fa fa-pencil" aria-hidden="true"></i></td>
+			        								<td>Editar perfil</td>
+			        							</tr>
+			        						</table>
+			        					</li>
+			        					<li ng-click="pnlCambiar()">
+			        						<table width="100%" border="0">
+			        							<tr>
+			        								<td width="25"><i class="fa fa-lock" aria-hidden="true"></i></td>
+			        								<td>Cambiar contraseña</td>
+			        							</tr>
+			        						</table>
+			        					</li>
+			        					<li ng-click="close()">
+			        						<table width="100%" border="0">
+			        							<tr>
+			        								<td width="25"><i class="fa fa-times-circle" aria-hidden="true"></i></td>
+			        								<td>Cerrar sesión</td>
+			        							</tr>
+			        						</table>
+			        					</li>
+			        				</ul>
+	        					</li>
+	        				</ul>
+	        			</div>
+	        		</div>
+	        	</div>
+        	</div>
+        </div>
+    </div>
+
+    <!-- <div class="contenido" ui-view> </div> -->
+    <div class="contenido col-sm-12 main" ui-view> </div>
+</div>
